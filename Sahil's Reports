@@ -1,1 +1,7 @@
+15/02/2024
 
+* The project is a food shop specializing in dumpling sales.
+* It involves an accounting system to manage financial transactions.
+* Different user roles include Sellers or Merchants, Customers, and Administrators.
+* The decision was made to use JavaScript and React for building the app.
+* Firebase will be used as the database.
