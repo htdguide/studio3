@@ -5,3 +5,47 @@
 * Different user roles include Sellers or Merchants, Customers, and Administrators.
 * The decision was made to use JavaScript and React for building the app.
 * Firebase will be used as the database.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+16/02/2024
+
+1.Entities:
+
+User:
+Attributes: UserID (Primary Key), Name, Email, Password, UserType (Customer, Seller/Merchant, Administrator).
+Restaurant:
+Attributes: RestaurantID (Primary Key), Name, Location, CuisineType.
+Dumpling:
+Attributes: DumplingID (Primary Key), Name, Description, Price, Stock.
+Order:
+Attributes: OrderID (Primary Key), UserID (Foreign Key), RestaurantID (Foreign Key), Status (Placed, In Progress, Delivered), TotalAmount, OrderDate.
+OrderItem:
+Attributes: OrderItemID (Primary Key), OrderID (Foreign Key), DumplingID (Foreign Key), Quantity, Subtotal.
+
+2.Relationships:
+
+User-Order Relationship:
+One-to-Many relationship between User and Order (A user can place multiple orders).
+User-Restaurant Relationship:
+Many-to-Many relationship between User and Restaurant (A user can order from multiple restaurants, and a restaurant can have multiple customers).
+Restaurant-Dumpling Relationship:
+One-to-Many relationship between Restaurant and Dumpling (A restaurant can offer multiple dumplings).
+Order-OrderItem Relationship:
+One-to-Many relationship between Order and OrderItem (An order can have multiple items).
+
+3.Cardinality:
+
+Indicate the cardinality of relationships (e.g., one-to-one, one-to-many, many-to-many).
+
+4.Attributes:
+
+Include key attributes for each entity, helping to define and distinguish them.
+
+5.Primary Keys and Foreign Keys:
+
+Clearly identify primary keys (unique identifiers) and foreign keys (establishing relationships between entities).
+
+6.Additional Considerations:
+
+Think about other entities such as DeliveryDriver and DeliveryStatus if your app involves a delivery service.
+Consider attributes for tracking timestamps, such as when an order is placed or delivered.
