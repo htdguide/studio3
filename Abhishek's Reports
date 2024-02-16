@@ -1,3 +1,5 @@
+15-02-2024
+
 We're setting up a food shop, specializing in everyone's favorite: dumplings. To make this happen, we're designing a system that caters to different types of users:
 -Sellers/Merchants
 -Customers
@@ -5,3 +7,24 @@ We're setting up a food shop, specializing in everyone's favorite: dumplings. To
 We brainstormed some scenarios to guide our project, making sure we cover all bases.
 After chatting with Tariq, we agreed to use JavaScript and React for building our app's frontend. For the database stuff, we're going with Firebase. It's simple, flexible, and fits our needs perfectly.
 Let's keep the momentum going and stay in sync as we move forward!
+
+
+~---~~----------------------~~~~~~~~~~---------------------------~~~~~~~~~~~~~~~~~~~~~~~---------------------------~~~~~~~~~~~~~~~~~~~~~~-------------~~~~~~~~~~-----~
+16-02-2024
+
+Our team unanimously agreed to utilize Entity-Relationship Diagrams (ERD) for our food shop project, recognizing its numerous advantages:
+Connectivity Visualization: ERD provides a visual roadmap, illustrating connections between key project elements like sellers, customers, and administrators.
+
+Universal Understanding: ERD acts as a common language, facilitating comprehension across all team members, regardless of technical expertise.
+
+Database Planning: ERD serves as a blueprint for organizing project data, ensuring efficient allocation and accessibility.
+
+Priority Identification: ERD helps in pinpointing essential project components, focusing on key stakeholders and their pertinent details.
+
+System Optimization: ERD streamlines project operations, optimizing performance by reducing clutter and inefficiencies.
+
+Future Preparedness: ERD enables anticipation of future project expansions while maintaining system integrity.
+
+Efficient Troubleshooting: ERD expedites issue resolution, acting as a guide to swiftly identify and address problems, ensuring project health.
+
+IN NUTSHELL, ERD functions as a navigational tool, guiding the seamless construction and maintenance of our food shop project.
