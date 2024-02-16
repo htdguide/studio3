@@ -13,7 +13,7 @@ Nikita Mogilevskii - Scrum Master
 Nijendra Giri - Backend Developer
 Abishek Choundary - Software Tester
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 First Day’s summary:
 
@@ -24,3 +24,6 @@ Our discussion was about fundamentals of our project. Our project is a food shop
 
 We did a brainstorm and wrote some of the scenarios for our project which it should handle.
 After talking with Tariq we decided to use JavaScript and React in our app. For databases we will use Firebase.
+
+
+------------------------------------------------------------------------------------------------
