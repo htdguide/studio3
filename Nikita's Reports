@@ -6,5 +6,9 @@ We also made a list of different situations or scenarios our project should be a
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-16/02/2024
+16/02/2024 Report
 
+Using an Entity-Relationship Diagram (ERD) for our food shop project is like having a smart map. It helps us understand how different parts connect, ensures everyone speaks the same language, and acts as a blueprint for organizing our database. ERD focuses on what matters, keeps things neat, prepares us for the future, and makes problem-solving easier. In essence, it's our guide to building and maintaining a smooth-running project.
+
+PULL REQUEST HOMETASK
+A pull request is a proposal to merge a set of changes from one branch into another. In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase.
