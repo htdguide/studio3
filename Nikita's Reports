@@ -1,1 +1,3 @@
+Our conversation revolved around the foundational aspects of our project, a food shop specifically centered on dumpling sales. We outlined the necessity for an accounting system accommodating various user roles, including Sellers or Merchants, Customers, and Administrators.
 
+Following a brainstorming session, Tariq and I concluded that our application will be developed using JavaScript and React. As for the database infrastructure, we opted for Firebase. We've also identified and documented several key scenarios that our project should be able to handle.
