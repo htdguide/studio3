@@ -1,1 +1,7 @@
-
+We're setting up a food shop, specializing in everyone's favorite: dumplings. To make this happen, we're designing a system that caters to different types of users:
+-Sellers/Merchants
+-Customers
+-Administrators
+We brainstormed some scenarios to guide our project, making sure we cover all bases.
+After chatting with Tariq, we agreed to use JavaScript and React for building our app's frontend. For the database stuff, we're going with Firebase. It's simple, flexible, and fits our needs perfectly.
+Let's keep the momentum going and stay in sync as we move forward!
