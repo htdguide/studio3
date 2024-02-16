@@ -1,1 +1,53 @@
+Subject: Daily Summary Report - Just MOMO Shop Project
 
+15/02/2024
+
+I. Overview:
+Today's discussions centered around establishing the fundamentals of our project – a dumpling shop specializing in dumpling sales. We outlined the key components, including an accounting system and user roles such as Seller/Merchant, Customer, and Administrator. Additionally, we made technology decisions, opting for JavaScript and React for app development and Firebase for the database.
+
+II. Task Updates:
+
+Defined project requirements and scenarios.
+Established user roles (Seller/Merchant, Customer, Administrator).
+Outlined essential features for the accounting system.
+Decided on the tech stack: JavaScript, React (for front-end), and Firebase (for databases).
+Identified initial tasks for the development team.
+
+III. Code Changes:
+No code changes were made today as our focus was on project planning and technology selection.
+
+IV. Testing:
+No testing activities were conducted today as development has not commenced. Testing plans will be formulated once the initial codebase is ready.
+
+V. Meetings and Collaborations:
+Discussed and brainstormed project fundamentals and scenarios with the team. Engaged in a collaborative decision-making process for technology selection with Tariq.
+
+VI. Plans for Tomorrow:
+
+Begin the setup of the project environment using JavaScript and React.
+Initiate the integration of Firebase for database functionality.
+Assign specific tasks to team members based on their expertise.
+
+VII. Risks and Mitigations:
+Identified the potential challenge of integrating Firebase smoothly; a mitigation plan will involve thorough documentation and collaborative problem-solving.
+
+VIII. Other Updates:
+
+Emphasized the importance of clear communication and documentation throughout the development process.
+Encouraged team members to share any insights or suggestions to enhance project efficiency.
+IX. Team Assistance:
+All team members are encouraged to seek assistance as needed. Collaboration and open communication are key to overcoming challenges.
+
+X. Conclusion:
+Today's focus on project fundamentals and technology selection lays a solid foundation for the upcoming development phase. The team is motivated and aligned with the project's goals.
+
+Attachments:
+No attachments for today.
+
+Next Meeting:
+The next team meeting is scheduled for 16/02/2024 at 1 p.m to discuss the progress of the initial project setup and address any emerging issues.
+
+Thank you for your commitment and collaboration.
+
+Best regards,
+Nijendra Giri
