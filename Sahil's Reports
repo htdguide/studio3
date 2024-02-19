@@ -8,3 +8,28 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+16/02/2024
+
+
+On the second day of developing a food delivery app, the Entity-Relationship Diagram (ERD) was established with key entities and their relationships:
+
+Entities:
+
+User: UserID, Username, Password, Email, Phone, Address
+Restaurant: RestaurantID, Name, Cuisine Type, Location, Rating
+Menu Item: ItemID, Name, Description, Price, RestaurantID
+Order: OrderID, UserID, RestaurantID, Status, Timestamp
+Payment: PaymentID, OrderID, Amount, Payment Method, Status
+
+Relationships:
+
+User-Order: One-to-Many
+Restaurant-Menu Item: One-to-Many
+Order-Menu Item: Many-to-Many
+User-Payment: One-to-Many
+Order-Payment: One-to-Many
+
+Considerations:
+
+Adaptable for user preferences, delivery addresses, and specific app features.
+Allows for scalability and future modifications based on evolving requirements.
