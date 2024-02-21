@@ -23,7 +23,7 @@ OUR STANDARTS:
 - AGILE USAGE
 -----------------------------------------------------------------------------------------------
 
-First Day’s summary:
+15/02/2024 summary:
 
 Our discussion was about fundamentals of our project. Our project is a food shop focused on dumplings sales. It should have an accounting system with different types of users:
 -	Seller or Merchant
@@ -36,8 +36,7 @@ After talking with Tariq we decided to use JavaScript and React in our app. For 
 
 ------------------------------------------------------------------------------------------------
 
-Second Day's summary:
-
+22/02/2024 summary:
 
 After our team chat about our food shop project, we're all on board with using an Entity-Relationship Diagram (ERD). 
 
@@ -82,21 +81,22 @@ Hours
 
 Third day's summary:
 
+We discussed our hometask about pull request, that it an update of the local repo from the main repo.
+
 Sahil brought information about types of the diagrams like: Entity Relationship, Conceptual, Logical, Physical, Crow's Foot Notation, Chen Notation, UML Class Diagram. 
 Nikita found some of the tools to implement some of these diagrams and team decided to choose draw.io. Abhishek found how many users should be in the ERD and draw a simple demo of the diagram.
-
-
-
-After our today's standup meeting we choosed your diagram creation software. After checking all of the types of diagrams we decided to draw a Logical diagram. Abishek draw a demo...
-
+After our today's standup meeting we choosed your diagram creation software. After checking all of the types of diagrams we decided to draw a Logical diagram. 
+Abishek draw a non-typed demo diagram to show our ideas simply.
+Gagandeep's report consist of different types of usercases which are very handy when it comes to ERD development.
 
 
 ACTIONS BEFORE THE NEXT STAND UP SESSION
 
-[NIJENDRA] User Stories Creation
-[SAHIL] Start figma design
-[ABHISHEK] Draw a Logical Diagram
-[GAGANDEEP] Dividing the user stories on functional and non-functional
-[NIKITA] First Database scratch
+[NIJENDRA] User Stories Creation [2 Hours]
+[SAHIL] Start figma design [2 Hours]
+[ABHISHEK] Draw a Logical Diagram [2 Hours]
+[GAGANDEEP] Dividing the user stories on functional and non-functional [2 Hours]
+[NIKITA] First Database scratch [2 Hours]
 [ALL TEAM] Describe our wireframe
 
+-------------------------------------------------------------------------------------------------------------------------------
