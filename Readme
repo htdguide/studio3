@@ -2,7 +2,7 @@ Team 2
 Dumplings shop
 
 Tools selection result:
-Task manager - GitHub Projects
+Task Manager - GitHub Projects
 Version Control System - GitHub
 IDE - Visual Studio Code
 Server handler - React
@@ -14,7 +14,7 @@ Nikita Mogilevskii - Scrum Master
 Nijendra Giri - Backend Developer
 Abishek Choundary - Software Tester
 
-OUR STANDARTS:
+OUR STANDARDS:
 - CODE READABILITY
 - TEAMWORK
 - EQUALITY OF THE CONTRIBUTION
@@ -25,20 +25,20 @@ OUR STANDARTS:
 
 15/02/2024 summary:
 
-Our discussion was about fundamentals of our project. Our project is a food shop focused on dumplings sales. It should have an accounting system with different types of users:
+Our discussion was about the fundamentals of our project. Our project is a food shop focused on dumplings sales. It should have an accounting system with different types of users:
 -	Seller or Merchant
 -	Customer
 -	Administrator
 
-We did a brainstorm and wrote some of the scenarios for our project which it should handle.
-After talking with Tariq we decided to use JavaScript and React in our app. For databases we will use Firebase.
+We did a brainstorm and wrote some of the scenarios for our project that it should handle.
+After talking with Tariq we decided to use JavaScript and React in our app. For databases, we will use Firebase.
 
 
 ------------------------------------------------------------------------------------------------
 
 22/02/2024 summary:
 
-After our team chat about our food shop project, we're all on board with using an Entity-Relationship Diagram (ERD). 
+After our team chats about our food shop project, we're all on board with using an Entity-Relationship Diagram (ERD). 
 
 Seeing How Things Connect:
 ERD helps us draw lines between different parts of our project, like sellers, customers, and administrators. It's like a map showing how everything is linked.
@@ -67,13 +67,13 @@ PULL REQUEST Hometask
 Using an Entity-Relationship Diagram (ERD) for our food shop project is like having a smart map. It helps us understand how different parts connect, ensures everyone speaks the same language, and acts as a blueprint for organizing our database. ERD focuses on what matters, keeps things neat, prepares us for the future, and makes problem-solving easier. 
 In essence, it's our guide to building and maintaining a smooth-running project.
 
-ACTIONS BEFORE THE NEXT STAND UP SESSION
+ACTIONS BEFORE THE NEXT STAND-UP SESSION
 Hours 
-[NIJENDRA] Find demos which illustrate idea 
-[SAHIL] Find out types of ERD diagrams
+[NIJENDRA] Find demos that illustrate idea 
+[SAHIL] Find out the types of ERD diagrams
 [ABHISHEK] Figure out how many users should be in the ERD
-[GAGANDEEP] Figure out usercases
-[NIKITA] Find a tool for ERD Diagram creation
+[GAGANDEEP] Figure out user cases
+[NIKITA] Find a tool for ERD Diagram Creation
 [ALL TEAM] Describe our future ERD diagram
 
 
@@ -81,21 +81,21 @@ Hours
 
 Third day's summary:
 
-We discussed our hometask about pull request, that it an copying the main repo to local repo.
+We discussed our homework about pull requests, which is copying one branch to another branch.
 
-Sahil brought information about types of the diagrams like: Entity Relationship, Conceptual, Logical, Physical, Crow's Foot Notation, Chen Notation, UML Class Diagram. 
-Nikita found some of the tools to implement some of these diagrams and team decided to choose draw.io. Abhishek found how many users should be in the ERD and draw a simple demo of the diagram.
-After our today's standup meeting we choosed your diagram creation software. After checking all of the types of diagrams we decided to draw a Logical diagram. 
-Abishek draw a non-typed demo diagram to show our ideas simply.
-Gagandeep's report consist of different types of usercases which are very handy when it comes to ERD development.
+Sahil brought information about types of diagrams like Entity Relationship, Conceptual, Logical, Physical, Crow's Foot Notation, Chen Notation, and UML Class Diagrams. 
+Nikita found some of the tools to implement some of these diagrams and the team decided to choose draw.io. Abhishek found how many users should be in the ERD and drew a simple demo of the diagram.
+After today's standup meeting, we choose your diagram creation software. After checking all of the types of diagrams we decided to draw a Logical diagram. 
+Abishek drew a non-typed demo diagram to show our ideas simply.
+Gagandeep's report consists of different types of usercases which are very handy when it comes to ERD development.
 
 
-ACTIONS BEFORE THE NEXT STAND UP SESSION
+ACTIONS BEFORE THE NEXT STAND-UP SESSION
 
 [NIJENDRA] User Stories Creation [2 Hours]
 [SAHIL] Start figma design [2 Hours]
 [ABHISHEK] Draw a Logical Diagram [2 Hours]
-[GAGANDEEP] Dividing the user stories on functional and non-functional [2 Hours]
+[GAGANDEEP] Dividing the user stories into functional and non-functional [2 Hours]
 [NIKITA] First Database scratch [2 Hours]
 [ALL TEAM] Describe our wireframe
 
