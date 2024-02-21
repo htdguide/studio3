@@ -25,6 +25,44 @@ System Optimization: ERD streamlines project operations, optimizing performance 
 
 Future Preparedness: ERD enables anticipation of future project expansions while maintaining system integrity.
 
-Efficient Troubleshooting: ERD expedites issue resolution, acting as a guide to swiftly identify and address problems, ensuring project health.
+~---~~----------------------~~~~~~~~~~---------------------------~~~~~~~~~~~~~~~~~~~~~~~---------------------------~~~~~~~~~~~~~~~~~~~~~~-------------~~~~~~~~~~-----~
+22-02-2024
+Here are some common user roles in my app and they might be included in the ERD
+--------Customer
+--------Restaurant Owners/Managers
+--------Delivery Drivers
+--------Administrators
+--------Support Staff
+--------Guest Users
+          +------------------+     1    +-------------------+
+          |     Customer     |----------|    Order          |
+          +------------------+    *    +-------------------+
+          | customer_id (PK) |<--------| order_id (PK)     |
+          | name             |         | customer_id (FK)  |
+          | email            |         | restaurant_id (FK)|
+          | phone            |         | driver_id (FK)    |
+          +------------------+         | status            |
+                                        | delivery_address  |
+                                        | payment_method    |
+                                        +-------------------+
+                                                    |
+                                            +---------------+
+                                            |   Restaurant  |
+                                            +---------------+
+                                            | restaurant_id |
+                                            | name          |
+                                            | owner_id (FK) |
+                                            | location      |
+                                            +---------------+
+                                                    |
+                                            +---------------+
+                                            |   Delivery    |
+                                            +---------------+
+                                            | driver_id (PK)|
+                                            | name          |
+                                            | vehicle_type  |
+                                            | status        |
+                                            +---------------+
 
-IN NUTSHELL, ERD functions as a navigational tool, guiding the seamless construction and maintenance of our food shop project.
+
+
