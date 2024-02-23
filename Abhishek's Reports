@@ -65,5 +65,50 @@ Here are some common user roles in my app and they might be included in the ERD
                                             +---------------+
 ~---~~----------------------~~~~~~~~~~---------------------------~~~~~~~~~~~~~~~~~~~~~~~---------------------------~~~~~~~~~~~~~~~~~~~~~~-------------~~~~~~~~~~-----~
 23-02-2024
+LOGICAL ERD FOR MY DUMPLING SHOP
+
+Customer                 Admin                 Restaurant Employee
+   |                       |                           |
+   v                       |                           |
+Registration               |                           |
+   |                       |                           |
+   v                       |                           |
+   Login <---------------->|<---------------------------|
+   |                       |                           |
+   v                       |                           |
+Navigate Menu              |                           |
+   |                       |                           |
+   v                       |                           |
+Select Item                |                           |
+   |                       |                           |
+   v                       |                           |
+Add Item                   |                           |
+   |                       |                           |
+   v                       |                           |
+Remove Item                |                           |
+   |                       |                           |
+   v                       |                           |
+Review Order               |                           |
+   |                       |                           |
+   v                       |                           |
+Replace Order--------------+-------------------------->|
+   |                       |                           |
+   v                       |                           |
+Pay for Order              |                           |
+   |                       |                           |
+   v                       |                           |
+Receive For Order          |                           |
+   |                       |                           |
+   v                       |                           |
+   |---------------------> Update Menu                 |
+   |                       |                           |
+   |                       |<--------------------------|
+   |                       |                           |
+   |                       v                           |
+   |                 Receive Confirmation              |
+   |                       |                           |
+   v                       v                           v
+Check Out <--------------------------------------------
+
 
 
