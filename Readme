@@ -92,43 +92,42 @@ Gagandeep's report consists of different types of usercases which are very handy
 
 ACTIONS BEFORE THE NEXT STAND-UP SESSION
 
-Nijendra:
-
+[Nijendra]
 Task: Find demos that illustrate the conceptual ideas.
 Breakdown:
 Search for relevant demos showcasing key concepts.
 Compile a list of demos that align with the team's vision.
 Ensure that the selected demos effectively illustrate the intended ideas.
-Sahil:
 
+[Sahil]
 Task: Find out the types of ERD diagrams.
 Breakdown:
 Research and identify various types of Entity-Relationship Diagrams (ERD).
 Provide a concise overview of each type.
 Highlight the characteristics and use cases of different ERD types.
-Abhishek:
 
+[Abhishek]
 Task: Figure out how many users should be in the ERD.
 Breakdown:
 Analyze the scope and requirements of the project.
 Determine the appropriate number of users to be represented in the ERD.
 Ensure that the user count accurately reflects the system's user base.
-Gagandeep:
 
+[Gagandeep]
 Task: Figure out user cases.
 Breakdown:
 Identify key user cases relevant to the project.
 Document scenarios illustrating interactions between users and the system.
 Provide a clear understanding of user behaviors and system responses.
-Nikita:
 
+[Nikita]
 Task: Find a tool for ERD Diagram Creation.
 Breakdown:
 Research and evaluate ERD diagram creation tools.
 Recommend a suitable tool based on features and usability.
 Share insights on the chosen tool to facilitate team decision-making.
-All Team:
 
+[All Team]
 Task: Describe our future ERD diagram.
 Breakdown:
 Collaboratively discuss and define the key components of the future ERD.
