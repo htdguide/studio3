@@ -36,7 +36,7 @@ After talking with Tariq we decided to use JavaScript and React in our app. For 
 
 ------------------------------------------------------------------------------------------------
 
-22/02/2024 summary:
+16/02/2024 summary:
 
 After our team chats about our food shop project, we're all on board with using an Entity-Relationship Diagram (ERD). 
 
@@ -79,7 +79,7 @@ Hours
 
 -----------------------------------------------------------------------------------------------------------------
 
-Third day's summary:
+22/02/2024 summary:
 
 We discussed our homework about pull requests, which is copying one branch to another branch.
 
@@ -100,3 +100,20 @@ ACTIONS BEFORE THE NEXT STAND-UP SESSION
 [ALL TEAM] Describe our wireframe
 
 -------------------------------------------------------------------------------------------------------------------------------
+
+23/02/2024 summary:
+
+We drew a simple database concept:
+
++-------------------+      +----------------+      +----------------+
+|   Customers      |      |      Menu      |      |      Cart      |
++-------------------+      +----------------+      +----------------+
+| CustomerID (PK)  |      | DishID (PK)    |      | CartID (PK)    |
+| FirstName         |      | DishName       |      | CustomerID (FK)|
+| LastName          |      | Description    |      | DishID (FK)    |
+| Email             |      | Price          |      | Quantity       |
+| Address           |      +----------------+      | TotalPrice     |
+| PhoneNumber       |                             +----------------+
++-------------------+
+
+
