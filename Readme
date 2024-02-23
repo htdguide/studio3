@@ -92,12 +92,48 @@ Gagandeep's report consists of different types of usercases which are very handy
 
 ACTIONS BEFORE THE NEXT STAND-UP SESSION
 
-[NIJENDRA] User Stories Creation [2 Hours]
-[SAHIL] Start figma design [2 Hours]
-[ABHISHEK] Draw a Logical Diagram [2 Hours]
-[GAGANDEEP] Dividing the user stories into functional and non-functional [2 Hours]
-[NIKITA] First Database scratch [2 Hours]
-[ALL TEAM] Describe our wireframe
+Nijendra:
+
+Task: Find demos that illustrate the conceptual ideas.
+Breakdown:
+Search for relevant demos showcasing key concepts.
+Compile a list of demos that align with the team's vision.
+Ensure that the selected demos effectively illustrate the intended ideas.
+Sahil:
+
+Task: Find out the types of ERD diagrams.
+Breakdown:
+Research and identify various types of Entity-Relationship Diagrams (ERD).
+Provide a concise overview of each type.
+Highlight the characteristics and use cases of different ERD types.
+Abhishek:
+
+Task: Figure out how many users should be in the ERD.
+Breakdown:
+Analyze the scope and requirements of the project.
+Determine the appropriate number of users to be represented in the ERD.
+Ensure that the user count accurately reflects the system's user base.
+Gagandeep:
+
+Task: Figure out user cases.
+Breakdown:
+Identify key user cases relevant to the project.
+Document scenarios illustrating interactions between users and the system.
+Provide a clear understanding of user behaviors and system responses.
+Nikita:
+
+Task: Find a tool for ERD Diagram Creation.
+Breakdown:
+Research and evaluate ERD diagram creation tools.
+Recommend a suitable tool based on features and usability.
+Share insights on the chosen tool to facilitate team decision-making.
+All Team:
+
+Task: Describe our future ERD diagram.
+Breakdown:
+Collaboratively discuss and define the key components of the future ERD.
+Ensure that the description encompasses the collective vision of the team.
+Provide input and feedback to create a comprehensive representation.
 
 -------------------------------------------------------------------------------------------------------------------------------
 
