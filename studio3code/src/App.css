@@ -13,22 +13,6 @@
   }
 }
 
-.title {
-  text-align: center;
-}
-
-.user-card {
-  text-align: center;
-  margin: 20px;
-}
-
-.user-photo {
-  width: 100px; 
-  height: 100px;
-  border-radius: 10%;
-}
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
