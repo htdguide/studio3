@@ -1,31 +1,35 @@
-// src/MainPage.js
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import TopBar from './TopBar';
 import DumplingsMenu from './DumplingsMenu';
 import Cart from './Cart';
-
-const HomePage = () => {
-  return (
-    <section>
-      <div className="hero">
-        <h1>Welcome to Dumplings Paradise</h1>
-        <p>Discover the art of dumplings with our delightful menu.</p>
-      </div>
-    </section>
-  );
-};
+import LoginPage from './LoginPage';
+import MemberPage from './MemberPage';
+import HomePage from './HomePage';
 
 const MainPage = () => {
+  const [loggedInUser, setLoggedInUser] = useState(null);
+
+  const handleLogin = (username) => {
+    setLoggedInUser(username);
+  };
+
   return (
     <Router>
       <div>
-        <TopBar />
+        <TopBar loggedInUser={loggedInUser} />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route
+            path="/"
+            element={<HomePage />} 
+          />
           <Route path="/dumplings" element={<DumplingsMenu />} />
           <Route path="/cart" element={<Cart />} />
-          {/* Add more routes for other pages */}
+          <Route path="/login" element={<LoginPage onLogin={handleLogin} />} />
+          <Route
+            path="/member"
+            element={<MemberPage username={loggedInUser} />}
+          />
         </Routes>
       </div>
     </Router>
