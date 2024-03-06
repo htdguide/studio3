@@ -110,4 +110,4 @@ Appropriateness: Relevant when dealing with complex relationships involving hier
 6.Dependency ERD:
 
 Dependency ERDs emphasize dependencies between entities, helping to identify which entities rely on others for specific attributes or functions.
-Appropriateness: Useful for identifying critical dependencies, such as order dependencies on menu items, to ensure the system functions cohesively.
+Appropriateness: Useful for identifying critical dependencies, such as order dependencies on menu items, to ensure the system functions cohesively..
