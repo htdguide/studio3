@@ -1,13 +1,147 @@
 body {
+  font-family: 'Arial', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  background-color: rgba(26, 26, 26, 0.5);
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.top-bar {
+  display: flex;
+  padding: 10px;
+}
+
+.menu-button {
+  background-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-inner {
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-button span {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  color: #0070c9;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  background-image: url('https://ik.imagekit.io/awwybhhmo/satellite_images/chinese/beyondmenu/hero/11.jpg?tr=w-3840,q-50'); /* Replace with your background image */
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.buy-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.cart-total {
+  font-weight: bold;
+}
+
+/* Add these styles to your styles.css or create a new CSS file */
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #45a049;
+}
+
+.register-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link:hover {
+  text-decoration: underline;
 }
