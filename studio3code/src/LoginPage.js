@@ -60,6 +60,14 @@ const LoginPage = ({ onLogin }) => {
           </Link>
         </p>
       )}
+      {!isRegistering && (
+        <p>
+          Don't have an account?{' '}
+          <Link to="/register" className="register-link">
+            Register here
+          </Link>
+        </p>
+      )}
     </section>
   );
 };
