@@ -1,5 +1,6 @@
 // src/MemberPage.js
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { auth, firestore } from './firebase'; // Import auth from your firebase.js file
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
 
@@ -7,6 +8,7 @@ const MemberPage = () => {
   const [userInfo, setUserInfo] = useState({});
   const [isEditing, setIsEditing] = useState(false);
   const [editedInfo, setEditedInfo] = useState({});
+  const navigate = useNavigate();
   const user = auth.currentUser;
 
   useEffect(() => {
@@ -43,10 +45,23 @@ const MemberPage = () => {
     setEditedInfo({});
   };
 
+  const handleLogout = async () => {
+    try {
+      // Log out the user
+      await auth.signOut();
+
+      // Redirect to the login page
+      navigate('/login');
+    } catch (error) {
+      console.error('Error during logout:', error);
+    }
+  };
+
   return (
     <section className="member-container">
       <h2>Welcome, {userInfo.name || 'Member'}!</h2>
       {isEditing ? (
+        // Edit mode
         <div>
           <label htmlFor="editedName">Name:</label>
           <input
@@ -76,12 +91,14 @@ const MemberPage = () => {
           <button onClick={handleCancel}>Cancel</button>
         </div>
       ) : (
+        // View mode
         <div>
           <p>Email: {userInfo.email}</p>
           <p>Name: {userInfo.name || 'Not provided'}</p>
           <p>Address: {userInfo.address || 'Not provided'}</p>
           <p>Phone Number: {userInfo.phoneNumber || 'Not provided'}</p>
           <button onClick={handleEdit}>Edit</button>
+          <button onClick={handleLogout}>Logout</button>
         </div>
       )}
     </section>
