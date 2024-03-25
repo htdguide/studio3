@@ -1,30 +1,44 @@
+// src/LoginPage.js
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+'
+import { auth } from './firebase';
+import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 
 const LoginPage = ({ onLogin }) => {
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [isRegistering, setIsRegistering] = useState(false);
   const navigate = useNavigate();
 
-  const handleLogin = () => {
-    if (username === 'user' && password === 'password') {
-      onLogin(username);
-      navigate('/member');
-    } else {
-      alert('Please try again.');
+  const handleAuthentication = async () => {
+    try {
+      if (isRegistering) {
+        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        const user = userCredential.user;
+        alert('Account created successfully!');
+      } else {
+        const userCredential = await signInWithEmailAndPassword(auth, email, password);
+        const user = userCredential.user;
+        onLogin(user.email);
+        navigate('/member');
+      }
+    } catch (error) {
+      alert('Authentication failed. Please check your credentials and try again.');
+      console.error(error);
     }
   };
 
   return (
-    <section>
-      <h2>Login</h2>
+    <section className="login-container">
+      <h2>{isRegistering ? 'Register' : 'Login'}</h2>
       <div>
-        <label htmlFor="username">Username:</label>
+        <label htmlFor="email">Email:</label>
         <input
-          type="text"
-          id="username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
+          type="email"
+          id="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
       </div>
       <div>
@@ -36,7 +50,17 @@ const LoginPage = ({ onLogin }) => {
           onChange={(e) => setPassword(e.target.value)}
         />
       </div>
-      <button onClick={handleLogin}>Login</button>
+      <button className="auth-button" onClick={handleAuthentication}>
+        {isRegistering ? 'Register' : 'Login'}
+      </button>
+      {isRegistering && (
+        <p>
+          Already have an account?{' '}
+          <Link to="/login" className="register-link">
+            Login here
+          </Link>
+        </p>
+      )}
     </section>
   );
 };
