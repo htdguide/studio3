@@ -1,9 +1,19 @@
 // src/TopBar.js
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { auth } from './firebase';
 
-const TopBar = ({ loggedInUser }) => {
-  const navigate = useNavigate();
+const TopBar = () => {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      setUser(user);
+    });
+
+    // Clean up the subscription on unmount
+    return () => unsubscribe();
+  }, []);
 
   return (
     <header className="bg-dark text-white">
@@ -40,16 +50,16 @@ const TopBar = ({ loggedInUser }) => {
                   Cart
                 </Link>
               </li>
-              {!loggedInUser ? (
+              {user ? (
                 <li className="nav-item">
-                  <Link to="/login" className="nav-link">
-                    Login
+                  <Link to="/member" className="nav-link">
+                    Member
                   </Link>
                 </li>
               ) : (
                 <li className="nav-item">
-                  <Link to="/member" className="nav-link">
-                    Member
+                  <Link to="/login" className="nav-link">
+                    Login
                   </Link>
                 </li>
               )}
