@@ -95,8 +95,6 @@ img {
   font-weight: bold;
 }
 
-/* Add these styles to your styles.css or create a new CSS file */
-
 .login-container {
   max-width: 400px;
   margin: auto;
@@ -144,4 +142,53 @@ input {
 
 .register-link:hover {
   text-decoration: underline;
+}
+
+.menu-container {
+  /* Your styles for the menu container */
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.item-details {
+  flex-grow: 1;
+}
+
+.item-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.item-price {
+  font-size: 16px;
+  color: #777;
+}
+
+.item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-display {
+  margin-right: 10px;
+}
+
+.quantity-input {
+  width: 40px;
+  margin-right: 10px; /* Adjust the margin to create space between the input and button */
+}
+
+.buy-button {
+  /* Your styles for the "Add to Cart" button */
+}
+
+.cart-summary {
+  /* Your styles for the cart summary */
 }
