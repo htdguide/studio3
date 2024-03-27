@@ -1,11 +1,9 @@
-// src/Cart.js
+
 import React from 'react';
 
 const Cart = () => {
-  // Dummy data for the cart
   const cartItems = [
     { id: 1, name: 'Dumpling 1', price: 5, quantity: 2 },
-    // Add more items as needed
   ];
 
   const total = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
