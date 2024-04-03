@@ -1,13 +1,4 @@
-import React, { useState } from 'react';
 
-const DumplingsMenu = () => {
-  const [cart, setCart] = useState([]);
-  const dumplingsData = [
-    { id: 1, name: 'Classic Dumpling', price: 5, image: 'dumpling1.jpg' },
-    { id: 2, name: 'Vegetable Dumpling', price: 6, image: 'dumpling2.jpg' },
-    { id: 3, name: 'Spicy Chicken Dumpling', price: 7, image: 'dumpling3.jpg' },
-    { id: 4, name: 'Shrimp Dumpling', price: 8, image: 'dumpling4.jpg' },
-    // Add more dumpling options as needed
   ];
 
   const addToCart = (dumpling, quantity) => {
