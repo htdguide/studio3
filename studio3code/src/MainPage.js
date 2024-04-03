@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import TopBar from './TopBar';
@@ -26,10 +27,7 @@ const MainPage = () => {
           <Route path="/dumplings" element={<DumplingsMenu />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginPage onLogin={handleLogin} />} />
-          <Route
-            path="/member"
-            element={<MemberPage username={loggedInUser} />}
-          />
+
         </Routes>
       </div>
     </Router>

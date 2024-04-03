@@ -1,9 +1,3 @@
-// src/TopBar.js
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-
-const TopBar = ({ loggedInUser }) => {
-  const navigate = useNavigate();
 
   return (
     <header className="bg-dark text-white">
@@ -40,16 +34,7 @@ const TopBar = ({ loggedInUser }) => {
                   Cart
                 </Link>
               </li>
-              {!loggedInUser ? (
-                <li className="nav-item">
-                  <Link to="/login" className="nav-link">
-                    Login
-                  </Link>
-                </li>
-              ) : (
-                <li className="nav-item">
-                  <Link to="/member" className="nav-link">
-                    Member
+
                   </Link>
                 </li>
               )}
