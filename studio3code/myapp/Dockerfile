@@ -8,11 +8,10 @@ COPY public/ /react-docker-example/public
 COPY src/ /react-docker-example/src
 COPY package.json /react-docker-example/
 
-# Increase memory limit for Node.js
-ENV NODE_OPTIONS="--max-old-space-size=2048"
-
-# Install dependencies
-RUN npm install --legacy-peer-deps
+# Optimize npm for low memory usage
+RUN npm set progress=false \
+    && npm config set depth 0 \
+    && npm install --legacy-peer-deps --no-audit
 
 # Set the default command
 CMD ["npm", "start"]
